@@ -1,6 +1,8 @@
 const express = require('express');
 var router = express.Router();
 
+var MongoClient = require('mongodb').MongoClient;
+var url = 'mongodb+srv://vinhdtasm2cloud:vinh1245@cluster0-no7z4.mongodb.net/test/';
 
 router.get('/',async (req,res)=>{
     let client= await MongoClient.connect(url);
