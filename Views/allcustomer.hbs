@@ -53,13 +53,13 @@
     <br>
     <table border="1">
         <tr>
-            <td>Name</td>
-            <td>Address</td>
+            <td>Product Name</td>
+            <td>Key of Product</td>
         </tr>
         {{#each customers}}
             <tr>
                 <td><a href="/customer/delete?id={{_id}}">Delete</a></Td>
-                <td>{{name}} and {{address}}</td>
+                <td>{{ProductName}} and {{KeyofProduct}}</td>
             </tr>
             <br>
         {{/each}}
