@@ -1,17 +1,27 @@
 {
-  "name": "nodeheroku",
+  "name": "mvcapp",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
+  "dependencies": {
+    "consolidate": "^0.15.1",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "mongodb": "^3.5.8"
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thevinh1412/cloud-computing.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "consolidate": "^0.15.1",
-    "express": "^4.17.1",
-    "handlebars": "^4.7.6"
-  }
+  "bugs": {
+    "url": "https://github.com/Thevinh1412/cloud-computing/issues"
+  },
+  "homepage": "https://github.com/Thevinh1412/cloud-computing#readme%22"
 }
